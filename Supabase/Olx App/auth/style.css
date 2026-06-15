@@ -1,0 +1,170 @@
+/* Login Register */
+/* Navbar */
+
+header{
+    background:white;
+    padding:20px 8%;
+    box-shadow:0 5px 20px rgba(0,0,0,0.08);
+}
+
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+
+.logo{
+    color:#2563eb;
+    font-size:28px;
+    font-weight:bold;
+}
+
+
+nav ul{
+    display:flex;
+    gap:35px;
+    list-style:none;
+}
+
+
+nav ul li{
+    color:#374151;
+    font-size:16px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+
+nav ul li:hover{
+    color:#2563eb;
+}
+
+
+nav button{
+
+    background:#2563eb;
+    color:white;
+    border:none;
+    padding:12px 28px;
+    border-radius:30px;
+    font-size:15px;
+    cursor:pointer;
+    transition:0.3s;
+
+}
+
+
+nav button:hover{
+
+    background:#1d4ed8;
+
+}
+
+.auth{
+
+min-height:80vh;
+display:flex;
+align-items:center;
+justify-content:center;
+gap:60px;
+padding:50px 8%;
+
+}
+
+
+.form-box{
+
+background:white;
+padding:40px;
+width:400px;
+border-radius:25px;
+box-shadow:0 10px 30px #ddd;
+
+}
+
+
+.form-box h1{
+
+font-size:35px;
+color:#111827;
+
+}
+
+
+.form-box p{
+
+margin:15px 0;
+color:#666;
+
+}
+
+
+form{
+
+display:flex;
+flex-direction:column;
+gap:15px;
+
+}
+
+
+input,select{
+
+padding:15px;
+border:1px solid #ddd;
+border-radius:10px;
+font-size:16px;
+
+}
+
+
+form button{
+
+margin-top:10px;
+
+}
+
+
+form a{
+
+color:#2563eb;
+text-decoration:none;
+
+}
+
+
+.auth-image img{
+
+width:450px;
+height:400px;
+object-fit:cover;
+border-radius:25px;
+
+}
+
+
+
+@media(max-width:900px){
+
+.auth{
+
+flex-direction:column;
+
+}
+
+
+.auth-image img{
+
+width:100%;
+
+}
+
+.form-box{
+
+width:100%;
+
+}
+
+}
