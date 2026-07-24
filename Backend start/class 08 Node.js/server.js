@@ -1,0 +1,11 @@
+import express from "express"
+
+const PORT = 5000;
+
+const app = express();
+
+app.get('/', (req,res) => {
+    res.send("Welcome Faizan")
+})
+
+app.listen(PORT, console.log(`Server runing http://localhost:${PORT}`))
