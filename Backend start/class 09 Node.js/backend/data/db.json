@@ -1,0 +1,21 @@
+{
+  "users": [
+    {
+      "_id": "id_ms3geexsyihz79i5",
+      "name": "Faizan Bashir",
+      "email": "fb2409512@gmail.com",
+      "password": "$2b$10$ebCLjFCiR5RsQQo4UEUOqOXKJuAq82ZDNBMDx4bTd0A4MH6t7Tpe.",
+      "createdAt": "2026-07-27T16:41:00.448Z",
+      "updatedAt": "2026-07-27T16:41:00.448Z"
+    },
+    {
+      "_id": "id_ms3gu8zy9fdqdhir",
+      "name": "afzal",
+      "email": "afzal@gmail.com",
+      "password": "$2b$10$n6GB//eU8/PRtOyzpPOt9e2Va80sVFMlAiIFDf8xkpoWwjqz/vIXK",
+      "createdAt": "2026-07-27T16:53:19.246Z",
+      "updatedAt": "2026-07-27T16:53:19.246Z"
+    }
+  ],
+  "products": []
+}
