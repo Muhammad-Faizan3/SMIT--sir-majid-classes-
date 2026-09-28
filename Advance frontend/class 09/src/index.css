@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
+  background: #060814;
+  color: #e8ecf8;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
